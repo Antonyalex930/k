@@ -12,7 +12,7 @@ def validate_password(password):
         return False  
     return True  
   
-password = "P@ssw0rd"  
+password = "P@ssw0rdPAss"  
 if validate_password(password):  
     print("Valid password")  
 else:  
